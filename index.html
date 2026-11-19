@@ -1,0 +1,1208 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>禁止的爱_善良的小姨子_影像品牌官方门户</title>
+<meta name="description" content="禁止的爱善良的小姨子官方网站，以原创影像与专业内容生态，记录真实、温暖与成长中的故事，为创作者与观众搭建值得信赖的视频品牌平台。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23c8443c'/%3E%3Cpath d='M24 18 L48 32 L24 46 Z' fill='%23fff6ef'/%3E%3C/svg%3E">
+<style>
+:root{
+  --jz-main:#c8443c;
+  --jz-main-deep:#9e2f28;
+  --jz-ink:#1d1a1a;
+  --jz-ink-soft:#4a4442;
+  --jz-paper:#fff8f3;
+  --jz-cream:#f7e9df;
+  --jz-line:#e8d5c8;
+  --jz-gold:#d99a4e;
+  --jz-shadow:0 12px 32px rgba(90,40,30,.12);
+  --jz-radius:16px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:120px}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  background:var(--jz-paper);
+  color:var(--jz-ink);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+.jz-wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+.jz-btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:12px 26px;border-radius:999px;
+  font-size:15px;font-weight:600;transition:.25s;
+}
+.jz-btn-solid{background:var(--jz-main);color:#fff;box-shadow:0 8px 20px rgba(200,68,60,.3)}
+.jz-btn-solid:hover{background:var(--jz-main-deep);transform:translateY(-2px)}
+.jz-btn-ghost{border:1.5px solid var(--jz-main);color:var(--jz-main)}
+.jz-btn-ghost:hover{background:var(--jz-main);color:#fff}
+.jz-sec{padding:76px 0}
+.jz-sec-head{margin-bottom:40px;max-width:760px}
+.jz-eyebrow{
+  display:inline-block;font-size:13px;letter-spacing:3px;
+  color:var(--jz-main);font-weight:700;margin-bottom:12px;
+}
+.jz-sec-head h2{font-size:32px;line-height:1.35;letter-spacing:1px}
+.jz-sec-head p{margin-top:12px;color:var(--jz-ink-soft);font-size:15.5px}
+
+/* 公告条 + 页头吸顶 */
+.jz-topfixed{position:sticky;top:0;z-index:120;background:var(--jz-paper)}
+.jz-notice{
+  background:linear-gradient(90deg,var(--jz-main),#e0704f);
+  color:#fff;font-size:13.5px;
+  display:flex;align-items:center;justify-content:center;gap:14px;
+  padding:8px 20px;text-align:center;
+}
+.jz-notice-tag{
+  background:rgba(255,255,255,.22);padding:2px 10px;border-radius:999px;
+  font-weight:700;font-size:12px;white-space:nowrap;
+}
+.jz-notice a{text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.jz-header{
+  border-bottom:1px solid var(--jz-line);
+  background:rgba(255,248,243,.94);
+  backdrop-filter:blur(10px);
+}
+.jz-nav{
+  display:flex;align-items:center;gap:28px;
+  height:70px;
+}
+.jz-logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px;letter-spacing:.5px}
+.jz-logo-mark{
+  width:36px;height:36px;border-radius:10px;background:var(--jz-main);
+  display:grid;place-items:center;color:#fff;font-size:15px;font-weight:900;
+  box-shadow:0 4px 12px rgba(200,68,60,.35);
+}
+.jz-logo small{display:block;font-size:10.5px;font-weight:500;color:var(--jz-ink-soft);letter-spacing:2px}
+.jz-menu{display:flex;gap:6px;margin-left:18px;flex:1}
+.jz-menu a{
+  font-size:14.5px;padding:8px 13px;border-radius:8px;color:var(--jz-ink-soft);
+  transition:.2s;white-space:nowrap;
+}
+.jz-menu a:hover{color:var(--jz-main);background:var(--jz-cream)}
+.jz-search{position:relative;display:flex;align-items:center}
+.jz-search input{
+  width:190px;padding:9px 38px 9px 14px;border-radius:999px;
+  border:1px solid var(--jz-line);background:#fff;font-size:13.5px;outline:none;
+  transition:.25s;
+}
+.jz-search input:focus{border-color:var(--jz-main);width:230px;box-shadow:0 0 0 3px rgba(200,68,60,.12)}
+.jz-search button{
+  position:absolute;right:6px;width:30px;height:30px;border-radius:50%;
+  display:grid;place-items:center;color:var(--jz-main);
+}
+.jz-burger{display:none;width:40px;height:40px;border-radius:10px;border:1px solid var(--jz-line);place-items:center}
+.jz-burger span{display:block;width:18px;height:2px;background:var(--jz-ink);position:relative}
+.jz-burger span::before,.jz-burger span::after{
+  content:"";position:absolute;left:0;width:18px;height:2px;background:var(--jz-ink);transition:.25s;
+}
+.jz-burger span::before{top:-6px}
+.jz-burger span::after{top:6px}
+.jz-search-tip{
+  position:absolute;top:44px;left:0;width:260px;background:#fff;border-radius:12px;
+  box-shadow:var(--jz-shadow);padding:10px;font-size:13px;display:none;z-index:50;
+  color:var(--jz-ink-soft);
+}
+.jz-search-tip.show{display:block}
+
+/* 首屏 */
+.jz-hero{padding:64px 0 40px;position:relative;overflow:hidden}
+.jz-hero::before{
+  content:"";position:absolute;right:-160px;top:-120px;width:520px;height:520px;
+  background:radial-gradient(circle,rgba(217,154,78,.22),transparent 68%);border-radius:50%;
+}
+.jz-hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;position:relative}
+.jz-hero-badge{
+  display:inline-flex;align-items:center;gap:8px;background:var(--jz-cream);
+  color:var(--jz-main-deep);font-size:13px;font-weight:700;padding:6px 14px;border-radius:999px;
+}
+.jz-hero-badge i{width:7px;height:7px;border-radius:50%;background:var(--jz-main);display:inline-block}
+.jz-hero h1{
+  font-size:52px;line-height:1.18;letter-spacing:2px;margin:22px 0 18px;
+}
+.jz-hero h1 em{font-style:normal;color:var(--jz-main)}
+.jz-hero-desc{font-size:16px;color:var(--jz-ink-soft);max-width:520px}
+.jz-hero-actions{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap}
+.jz-hero-stats{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px;
+  border-top:1px solid var(--jz-line);padding-top:26px;max-width:520px;
+}
+.jz-stat b{display:block;font-size:28px;color:var(--jz-main-deep);letter-spacing:1px}
+.jz-stat span{font-size:13px;color:var(--jz-ink-soft)}
+.jz-hero-visual{position:relative}
+.jz-hero-frame{
+  border-radius:24px;overflow:hidden;box-shadow:var(--jz-shadow);
+  border:6px solid #fff;background:#fff;
+}
+.jz-hero-frame img{width:100%;aspect-ratio:4/3.4;object-fit:cover}
+.jz-hero-float{
+  position:absolute;left:-26px;bottom:34px;background:#fff;border-radius:16px;
+  padding:14px 18px;box-shadow:var(--jz-shadow);display:flex;align-items:center;gap:12px;
+  font-size:13px;
+}
+.jz-hero-float .jz-av{
+  width:38px;height:38px;border-radius:50%;background:var(--jz-gold);color:#fff;
+  display:grid;place-items:center;font-weight:800;
+}
+.jz-hero-float b{display:block;font-size:13.5px}
+.jz-hero-float small{color:var(--jz-ink-soft);font-size:12px}
+
+/* 关键词解析长文 */
+.jz-about{background:#fff;border-top:1px solid var(--jz-line);border-bottom:1px solid var(--jz-line)}
+.jz-about-inner{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px}
+.jz-about-side h2{font-size:30px;line-height:1.4;margin-bottom:18px}
+.jz-about-side .jz-quote{
+  border-left:4px solid var(--jz-main);padding:6px 0 6px 18px;
+  color:var(--jz-ink-soft);font-size:15px;margin:24px 0;
+}
+.jz-about-tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.jz-about-tags span{
+  font-size:12.5px;padding:6px 14px;border-radius:999px;background:var(--jz-cream);
+  color:var(--jz-main-deep);font-weight:600;
+}
+.jz-about-body p{margin-bottom:16px;color:var(--jz-ink-soft);font-size:15.5px;text-align:justify}
+.jz-about-body p b{color:var(--jz-ink)}
+
+/* 焦点视频 */
+.jz-featured-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:24px}
+.jz-vcard{background:#fff;border-radius:var(--jz-radius);overflow:hidden;box-shadow:var(--jz-shadow);transition:.3s}
+.jz-vcard:hover{transform:translateY(-5px)}
+.jz-vcard-cover{position:relative;aspect-ratio:16/9;overflow:hidden}
+.jz-vcard-cover img{width:100%;height:100%;object-fit:cover;transition:.5s}
+.jz-vcard:hover .jz-vcard-cover img{transform:scale(1.04)}
+.jz-play{
+  position:absolute;inset:0;display:grid;place-items:center;background:rgba(29,26,26,.18);
+}
+.jz-play i{
+  width:56px;height:56px;border-radius:50%;background:rgba(255,255,255,.92);
+  display:grid;place-items:center;color:var(--jz-main);font-size:18px;font-style:normal;
+  box-shadow:0 6px 18px rgba(0,0,0,.2);
+}
+.jz-vcard-body{padding:20px 22px 22px}
+.jz-vcard-body h3{font-size:19px;line-height:1.45;margin-bottom:8px}
+.jz-vcard-body p{font-size:13.5px;color:var(--jz-ink-soft);margin-bottom:14px}
+.jz-meta{display:flex;align-items:center;gap:12px;font-size:12.5px;color:var(--jz-ink-soft);flex-wrap:wrap}
+.jz-tag{
+  display:inline-block;font-size:12px;padding:3px 10px;border-radius:6px;
+  background:var(--jz-cream);color:var(--jz-main-deep);font-weight:600;
+}
+.jz-featured-side{display:grid;gap:20px}
+.jz-mini{display:flex;gap:14px;background:#fff;border-radius:14px;padding:12px;box-shadow:var(--jz-shadow);transition:.25s}
+.jz-mini:hover{transform:translateX(4px)}
+.jz-mini-cover{width:132px;aspect-ratio:16/9;border-radius:10px;overflow:hidden;flex-shrink:0;position:relative}
+.jz-mini-cover img{width:100%;height:100%;object-fit:cover}
+.jz-mini-body h4{font-size:14.5px;line-height:1.4;margin-bottom:6px}
+.jz-mini-body small{font-size:12px;color:var(--jz-ink-soft)}
+
+/* 热门视频流 */
+.jz-stream{background:linear-gradient(180deg,#fff,#fff8f3)}
+.jz-stream-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.jz-actions{display:flex;gap:6px;margin-top:12px;padding-top:12px;border-top:1px dashed var(--jz-line)}
+.jz-act{
+  display:inline-flex;align-items:center;gap:5px;font-size:12.5px;
+  padding:5px 10px;border-radius:8px;color:var(--jz-ink-soft);transition:.2s;
+}
+.jz-act:hover{background:var(--jz-cream);color:var(--jz-main)}
+.jz-act.on{color:var(--jz-main);font-weight:700}
+
+/* 专题 */
+.jz-topics{background:var(--jz-cream)}
+.jz-topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.jz-topic{
+  background:#fff;border-radius:var(--jz-radius);padding:24px;border-top:4px solid var(--jz-main);
+  box-shadow:var(--jz-shadow);position:relative;transition:.3s;
+}
+.jz-topic:hover{transform:translateY(-4px)}
+.jz-topic .jz-topic-no{font-size:12px;letter-spacing:2px;color:var(--jz-gold);font-weight:700}
+.jz-topic h3{font-size:18px;margin:8px 0 10px}
+.jz-topic p{font-size:13.5px;color:var(--jz-ink-soft)}
+.jz-topic .jz-status{
+  display:inline-block;margin-top:16px;font-size:12px;font-weight:700;
+  color:var(--jz-main-deep);background:rgba(200,68,60,.1);padding:4px 12px;border-radius:999px;
+}
+
+/* 创作者 */
+.jz-creators-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.jz-creator{
+  background:#fff;border-radius:var(--jz-radius);padding:26px 20px;text-align:center;
+  box-shadow:var(--jz-shadow);transition:.3s;
+}
+.jz-creator:hover{transform:translateY(-5px)}
+.jz-creator-av{
+  width:72px;height:72px;border-radius:50%;margin:0 auto 14px;
+  display:grid;place-items:center;font-size:26px;font-weight:800;color:#fff;
+}
+.jz-creator h3{font-size:16px}
+.jz-creator .jz-role{font-size:12.5px;color:var(--jz-main);font-weight:600;margin:4px 0 10px}
+.jz-creator p{font-size:13px;color:var(--jz-ink-soft);min-height:58px}
+.jz-creator-meta{display:flex;justify-content:space-around;margin-top:12px;padding-top:12px;border-top:1px dashed var(--jz-line);font-size:12px;color:var(--jz-ink-soft)}
+.jz-creator-meta b{display:block;color:var(--jz-ink);font-size:14px}
+
+/* 影像墙 */
+.jz-wall-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.jz-wall-item{border-radius:14px;overflow:hidden;position:relative;background:#fff;box-shadow:var(--jz-shadow)}
+.jz-wall-item img{width:100%;height:100%;object-fit:cover;transition:.5s}
+.jz-wall-item:hover img{transform:scale(1.06)}
+.jz-wall-item.big{grid-column:span 2;grid-row:span 2}
+.jz-wall-cap{
+  position:absolute;left:0;right:0;bottom:0;padding:26px 14px 12px;
+  background:linear-gradient(transparent,rgba(29,26,26,.75));color:#fff;font-size:13px;
+}
+
+/* 评价 */
+.jz-reviews{background:#fff;border-top:1px solid var(--jz-line)}
+.jz-review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.jz-review{
+  background:var(--jz-paper);border-radius:var(--jz-radius);padding:22px;
+  border:1px solid var(--jz-line);position:relative;
+}
+.jz-review::before{
+  content:"\201C";position:absolute;top:6px;right:18px;font-size:52px;color:var(--jz-line);font-family:Georgia,serif;
+}
+.jz-review p{font-size:14px;color:var(--jz-ink-soft);position:relative;z-index:1}
+.jz-review-who{display:flex;align-items:center;gap:10px;margin-top:16px}
+.jz-review-who .jz-av{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:14px;font-weight:700}
+.jz-review-who b{font-size:13.5px;display:block}
+.jz-review-who small{font-size:11.5px;color:var(--jz-ink-soft)}
+
+/* 灵感 & 动态 */
+.jz-duo{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.jz-idea{background:linear-gradient(140deg,#fff,#fdeee6);border-radius:var(--jz-radius);padding:30px;border:1px solid var(--jz-line)}
+.jz-idea h3{font-size:20px;margin-bottom:14px}
+.jz-idea-list li{
+  display:flex;gap:12px;padding:12px 0;border-bottom:1px dashed var(--jz-line);font-size:14px;color:var(--jz-ink-soft);
+}
+.jz-idea-list li:last-child{border-bottom:none}
+.jz-idea-list i{
+  width:26px;height:26px;flex-shrink:0;border-radius:8px;background:var(--jz-main);color:#fff;
+  display:grid;place-items:center;font-size:12px;font-style:normal;font-weight:700;
+}
+.jz-news h3{font-size:20px;margin-bottom:14px}
+.jz-news-item{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--jz-line)}
+.jz-news-item:last-child{border-bottom:none}
+.jz-news-date{
+  font-size:12px;font-weight:700;color:var(--jz-main);background:var(--jz-cream);
+  padding:4px 10px;border-radius:8px;height:fit-content;white-space:nowrap;
+}
+.jz-news-item b{font-size:14.5px;display:block;margin-bottom:3px}
+.jz-news-item span{font-size:12.5px;color:var(--jz-ink-soft)}
+
+/* FAQ */
+.jz-faq{background:var(--jz-cream)}
+.jz-faq-list{max-width:860px;margin:0 auto}
+.jz-faq-list details{
+  background:#fff;border-radius:12px;margin-bottom:12px;padding:0 22px;
+  box-shadow:0 4px 14px rgba(90,40,30,.06);
+}
+.jz-faq-list summary{
+  cursor:pointer;padding:18px 0;font-weight:600;font-size:15.5px;list-style:none;
+  display:flex;justify-content:space-between;align-items:center;gap:20px;
+}
+.jz-faq-list summary::-webkit-details-marker{display:none}
+.jz-faq-list summary::after{content:"+";color:var(--jz-main);font-size:22px;transition:.25s}
+.jz-faq-list details[open] summary::after{transform:rotate(45deg)}
+.jz-faq-list details p{padding:0 0 18px;color:var(--jz-ink-soft);font-size:14px}
+
+/* 联系 */
+.jz-contact{background:linear-gradient(135deg,#1d1a1a,#3a2b25);color:#f7e9df}
+.jz-contact-inner{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.jz-contact h2{font-size:30px;color:#fff;margin-bottom:16px}
+.jz-contact p{color:#d9c6b9;font-size:15px}
+.jz-contact-info{margin-top:26px;display:grid;gap:12px;font-size:14px}
+.jz-contact-info div{display:flex;gap:10px;align-items:center;color:#e8d5c8}
+.jz-contact-info i{
+  width:30px;height:30px;border-radius:8px;background:rgba(255,255,255,.1);
+  display:grid;place-items:center;color:var(--jz-gold);font-style:normal;
+}
+.jz-contact-actions{display:flex;gap:14px;flex-wrap:wrap;justify-content:flex-end}
+.jz-contact .jz-btn-ghost{border-color:rgba(255,255,255,.5);color:#fff}
+.jz-contact .jz-btn-ghost:hover{background:#fff;color:var(--jz-ink)}
+
+/* 页脚 */
+.jz-footer{background:#161313;color:#a99890;padding:52px 0 26px;font-size:13.5px}
+.jz-footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:34px;margin-bottom:38px}
+.jz-footer h4{color:#f0e2d8;font-size:14.5px;margin-bottom:14px}
+.jz-footer li{margin-bottom:8px}
+.jz-footer a:hover{color:var(--jz-gold)}
+.jz-footer-brand p{margin-top:12px;line-height:1.8;max-width:320px}
+.jz-footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:20px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12.5px}
+
+/* 回到顶部 & toast */
+.jz-top{
+  position:fixed;right:24px;bottom:28px;width:46px;height:46px;border-radius:50%;
+  background:var(--jz-main);color:#fff;display:grid;place-items:center;font-size:18px;
+  box-shadow:0 8px 22px rgba(200,68,60,.4);opacity:0;pointer-events:none;transition:.3s;z-index:130;
+}
+.jz-top.show{opacity:1;pointer-events:auto}
+.jz-toast{
+  position:fixed;left:50%;bottom:40px;transform:translate(-50%,20px);
+  background:rgba(29,26,26,.92);color:#fff;padding:10px 22px;border-radius:999px;
+  font-size:13.5px;opacity:0;pointer-events:none;transition:.3s;z-index:200;
+}
+.jz-toast.show{opacity:1;transform:translate(-50%,0)}
+
+/* 弹窗 */
+.jz-modal{
+  position:fixed;inset:0;background:rgba(20,15,13,.55);display:none;place-items:center;
+  z-index:300;padding:24px;backdrop-filter:blur(3px);
+}
+.jz-modal.show{display:grid}
+.jz-modal-box{
+  background:#fff;border-radius:20px;max-width:460px;width:100%;padding:30px;position:relative;
+  box-shadow:0 30px 60px rgba(0,0,0,.3);max-height:86vh;overflow:auto;
+}
+.jz-modal-box h3{font-size:19px;margin-bottom:14px;color:var(--jz-main-deep)}
+.jz-modal-box p{font-size:14px;color:var(--jz-ink-soft);margin-bottom:10px}
+.jz-modal-close{
+  position:absolute;right:16px;top:14px;font-size:20px;color:var(--jz-ink-soft);
+  width:32px;height:32px;border-radius:50%;display:grid;place-items:center;
+}
+.jz-modal-close:hover{background:var(--jz-cream);color:var(--jz-main)}
+.jz-modal-box input,.jz-modal-box textarea{
+  width:100%;border:1px solid var(--jz-line);border-radius:10px;padding:10px 14px;
+  font-family:inherit;font-size:14px;margin-bottom:12px;outline:none;
+}
+.jz-modal-box input:focus,.jz-modal-box textarea:focus{border-color:var(--jz-main)}
+.jz-share-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+.jz-share-row button{
+  padding:9px 16px;border-radius:999px;border:1px solid var(--jz-line);
+  font-size:13px;transition:.2s;
+}
+.jz-share-row button:hover{border-color:var(--jz-main);color:var(--jz-main)}
+
+@media(max-width:1024px){
+  .jz-hero-grid,.jz-about-inner,.jz-duo,.jz-contact-inner{grid-template-columns:1fr}
+  .jz-hero h1{font-size:40px}
+  .jz-stream-grid,.jz-topic-grid,.jz-review-grid{grid-template-columns:repeat(2,1fr)}
+  .jz-creators-grid{grid-template-columns:repeat(2,1fr)}
+  .jz-featured-grid{grid-template-columns:1fr}
+  .jz-footer-grid{grid-template-columns:1fr 1fr}
+  .jz-hero-visual{order:-1}
+  .jz-contact-actions{justify-content:flex-start}
+}
+@media(max-width:760px){
+  .jz-menu{
+    position:absolute;left:0;right:0;top:100%;background:#fff;flex-direction:column;
+    padding:12px 20px;box-shadow:var(--jz-shadow);display:none;border-top:1px solid var(--jz-line);
+  }
+  .jz-menu.open{display:flex}
+  .jz-header{position:relative}
+  .jz-nav{flex-wrap:wrap;height:auto;padding:14px 0;gap:12px}
+  .jz-search{order:3;width:100%}
+  .jz-search input,.jz-search input:focus{width:100%}
+  .jz-burger{display:grid;margin-left:auto}
+  .jz-stream-grid,.jz-topic-grid,.jz-review-grid,.jz-creators-grid,.jz-wall-grid{grid-template-columns:1fr}
+  .jz-wall-item.big{grid-column:span 1;grid-row:span 1}
+  .jz-hero h1{font-size:32px}
+  .jz-sec-head h2{font-size:25px}
+  .jz-hero-stats{grid-template-columns:1fr 1fr}
+  .jz-footer-grid{grid-template-columns:1fr}
+  .jz-hero-float{display:none}
+  .jz-sec{padding:52px 0}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- 吸顶区域：公告条 + 页头 -->
+<div class="jz-topfixed">
+  <div class="jz-notice">
+    <span class="jz-notice-tag">官方发布</span>
+    <span>2026 冬季企划《善良的瞬间》影像征集已开启报名，共 12 个入选名额</span>
+    <a href="#jz-news">查看详情 →</a>
+  </div>
+  <header class="jz-header">
+    <div class="jz-wrap">
+      <div class="jz-nav">
+        <a href="#jz-home" class="jz-logo">
+          <span class="jz-logo-mark">善</span>
+          <span>善良的小姨子<small>SHANLIANG BRAND</small></span>
+        </a>
+        <nav class="jz-menu" id="jz-menu">
+          <a href="#jz-home">首页</a>
+          <a href="#jz-about">品牌故事</a>
+          <a href="#jz-focus">焦点内容</a>
+          <a href="#jz-stream">热门内容</a>
+          <a href="#jz-topics">专题企划</a>
+          <a href="#jz-creators">创作者</a>
+          <a href="#jz-wall">影像墙</a>
+          <a href="#jz-news">企业动态</a>
+          <a href="#jz-faq">帮助</a>
+          <a href="#jz-contact">联系</a>
+        </nav>
+        <div class="jz-search">
+          <input type="text" id="jz-search-input" placeholder="搜索内容、创作者…" aria-label="站内搜索">
+          <button id="jz-search-btn" aria-label="执行搜索">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+          </button>
+          <div class="jz-search-tip" id="jz-search-tip"></div>
+        </div>
+        <button class="jz-burger" id="jz-burger" aria-label="展开导航"><span></span></button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<!-- 首屏 -->
+<section class="jz-hero" id="jz-home">
+  <div class="jz-wrap">
+    <div class="jz-hero-grid">
+      <div>
+        <span class="jz-hero-badge"><i></i>官方网站 · 品牌原创影像门户</span>
+        <h1>禁止的爱<em>善良的小姨子</em></h1>
+        <p class="jz-hero-desc">
+          善良的小姨子品牌官方网站，持续运营的原创影像平台。我们相信，每一个关于善良与爱的故事，都值得被专业镜头认真记录。
+        </p>
+        <div class="jz-hero-actions">
+          <a href="#jz-focus" class="jz-btn jz-btn-solid">进入焦点内容</a>
+          <a href="#jz-about" class="jz-btn jz-btn-ghost">了解品牌故事</a>
+          <button class="jz-btn jz-btn-ghost" id="jz-submit-open">投稿入口</button>
+        </div>
+        <div class="jz-hero-stats">
+          <div class="jz-stat"><b>268</b><span>原创精品总数</span></div>
+          <div class="jz-stat"><b>42.6万</b><span>社区创作者关注</span></div>
+          <div class="jz-stat"><b>9 年</b><span>品牌持续运营</span></div>
+        </div>
+      </div>
+      <div class="jz-hero-visual">
+        <div class="jz-hero-frame">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 544'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23c8443c'/%3E%3Cstop offset='1' stop-color='%23e8a05e'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='544' fill='url(%23g1)'/%3E%3Ccircle cx='500' cy='110' r='96' fill='%23fff' opacity='.14'/%3E%3Ccircle cx='120' cy='430' r='140' fill='%23fff' opacity='.1'/%3E%3Cpath d='M0 400 Q160 320 320 380 T640 360 V544 H0 Z' fill='%23fff' opacity='.12'/%3E%3Cpath d='M320 150 c-34 -34 -92 -34 -126 0 -34 34 -34 92 0 126 l126 126 126 -126 c34 -34 34 -92 0 -126 -34 -34 -92 -34 -126 0 z' fill='%23fff' opacity='.9'/%3E%3C/svg%3E" alt="禁止的爱善良的小姨子品牌主视觉温暖心形意象">
+        </div>
+        <div class="jz-hero-float">
+          <div class="jz-av">善</div>
+          <div>
+            <b>本周新片 · 12 部</b>
+            <small>官方发布 · 持续更新</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 关键词解析长文 -->
+<section class="jz-sec jz-about" id="jz-about">
+  <div class="jz-wrap">
+    <div class="jz-about-inner">
+      <div class="jz-about-side">
+        <span class="jz-eyebrow">BRAND STORY · 品牌故事</span>
+        <h2>一个关于善良、边界与爱的影像品牌</h2>
+        <div class="jz-quote">
+          “禁止的爱”并非讲禁忌的猎奇，而是一群人在情感的边界上，学会善良、学会尊重、学会成长的真实记录。
+        </div>
+        <p style="color:var(--jz-ink-soft);font-size:15px">
+          善良的小姨子品牌自 2017 年创立，深耕情感纪实与家庭叙事这一垂直领域，以专业影像、正版原创与温暖表达，成为用户信赖的品牌官网入口。
+        </p>
+        <div class="jz-about-tags">
+          <span>原创影像</span><span>情感纪实</span><span>内容生态</span>
+          <span>社区共创</span><span>匠心叙事</span><span>真实记录</span>
+        </div>
+      </div>
+      <div class="jz-about-body">
+        <p><b>品牌定位与解析。</b>“禁止的爱”与“善良的小姨子”这两个词，放在一起时往往容易引起误读。在善良的小姨子品牌官方网站里，我们不回避这份误读，而是把它当作一次认真对话的起点。我们所说的“禁止的爱”，指的是那些被伦理、被偏见、被沉默划上红线的复杂情感；而“善良的小姨子”，则是面对这些情感时，选择不伤害、不评判、不逃避的那一类普通人。本品牌围绕这一组充满张力的关键词，建立起一个以家庭情感为切口、以人文关怀为底色的原创视频内容生态，用专业镜头去记录那些被忽略的、真实的、有温度的人间片段。</p>
+        <p><b>我们如何理解这两个词。</b>在多数叙事里，“禁止”意味着拒绝，意味着不可触碰。但我们更愿意把它理解成一道门槛——门槛后面，是需要被看见的脆弱。善良的小姨子相信，真正成熟的内容平台不是去挑动情绪，而是去理解情绪从何而来。因此，本官网所呈现的所有精品内容，都遵循三个原则：不猎奇、不污名、不消费他人痛苦。我们以纪录片式的克制、剧情短片式的共情、人物访谈式的坦诚，让“禁止的爱”从被议论的对象，变成被理解的对象；让“善良的小姨子”从标签式的称呼，还原成一个个具体的、有名字的、会在深夜犹豫也会在清晨选择的普通人。</p>
+        <p><b>内容生态与创作主张。</b>作为行业领先的情感纪实影像品牌，善良的小姨子持续运营的内容体系分为四条主线：其一是“家庭关系档案”，以真实家庭为样本，记录亲情、边界与和解；其二是“她视角”，由女性创作者主导，讲述成长、陪伴与自我和解；其三是“小城故事”，走向县城与乡镇，记录在地文化中的情感结构；其四是“创作幕后”，把选题、采访、剪辑的全过程公开，让内容生态透明可查。我们坚信，正版、高清、专业不仅是技术标准，更是一种对创作者与观众的双向尊重。每一条视频都经过选题会、伦理审核与后期复检三道流程，这是我们作为企业对社会责任的自觉承担。</p>
+        <p><b>社区与创作者。</b>善良的小姨子不是一个单向输出的品牌，而是一个由创作者与观众共同生长的社区。目前已有超过 460 位认证创作者在本平台发布原创作品，他们来自纪录片、短剧、摄影、写作、心理学等不同背景。我们为新人提供选题库、脚本顾问与剪辑指导，也希望每一位创作者在这里感受到被尊重、被看见。社区里没有“标准答案”，只有“认真表达”。我们鼓励多元与包容，允许不同立场在理性与善意中碰撞；我们相信，真实本身就是一种力量，温暖不是软弱的代名词，而是长期主义的另一种写法。</p>
+        <p><b>品牌使命与长期主义。</b>九年时间里，善良的小姨子从一个小型影像工作室，成长为一个拥有稳定内容节奏、清晰价值主张的视频品牌。我们不追逐短期流量，而是把预算投向选题调研与创作者培养；我们不迷信爆款，而是相信口碑来自每一帧的诚实。未来，我们将继续深耕情感纪实这一垂直领域，启动“善良影像基金”，支持青年创作者完成他们的第一部作品；也将持续举办线下放映与公开课，让影像回到人群中间。我们希望，当观众打开善良的小姨子官方网站时，看到的不只是视频，而是一种值得信赖的观看方式，一种关于理解与善意的长期承诺。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 焦点内容 -->
+<section class="jz-sec" id="jz-focus">
+  <div class="jz-wrap">
+    <div class="jz-sec-head">
+      <span class="jz-eyebrow">FEATURED · 焦点内容</span>
+      <h2>本周焦点：在边界处，看见善良</h2>
+      <p>由品牌编辑部与社区创作者共同遴选，聚焦情感边界、家庭关系与小城日常的原创精品内容。</p>
+    </div>
+    <div class="jz-featured-grid">
+      <article class="jz-vcard">
+        <div class="jz-vcard-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Cdefs%3E%3ClinearGradient id='f1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%237b3f3a'/%3E%3Cstop offset='1' stop-color='%23d99a4e'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='450' fill='url(%23f1)'/%3E%3Crect x='60' y='60' width='220' height='330' rx='10' fill='%23fff' opacity='.15'/%3E%3Crect x='300' y='110' width='180' height='280' rx='10' fill='%23fff' opacity='.1'/%3E%3Ccircle cx='620' cy='160' r='90' fill='%23fff' opacity='.16'/%3E%3Cpath d='M0 380 Q200 300 400 360 T800 340 V450 H0Z' fill='%23fff' opacity='.14'/%3E%3C/svg%3E" alt="焦点内容善良的小姨子家庭关系档案封面">
+          <div class="jz-play"><i>▶</i></div>
+        </div>
+        <div class="jz-vcard-body">
+          <span class="jz-tag">家庭关系档案</span>
+          <h3>《她叫我一声姐》第一集：当亲情有了边界</h3>
+          <p>跟随三个普通家庭，记录姐夫与小姨子之间关于信任、距离与理解的日常对话，全片无剧本，真实取材。</p>
+          <div class="jz-meta">
+            <span>作者：林知夏</span><span>·</span><span>时长 23:40</span><span>·</span><span>2026-11-15</span>
+          </div>
+          <div class="jz-actions">
+            <button class="jz-act" data-like>👍 点赞 <span>1286</span></button>
+            <button class="jz-act" data-fav>♡ 收藏</button>
+            <button class="jz-act" data-share>↗ 分享</button>
+          </div>
+        </div>
+      </article>
+      <div class="jz-featured-side">
+        <article class="jz-mini">
+          <div class="jz-mini-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 180'%3E%3Crect width='320' height='180' fill='%23415c6b'/%3E%3Ccircle cx='250' cy='50' r='60' fill='%23d99a4e' opacity='.55'/%3E%3Cpath d='M0 140 Q90 100 180 130 T320 120 V180 H0Z' fill='%23fff' opacity='.16'/%3E%3C/svg%3E" alt="小城故事腊月回门封面">
+          </div>
+          <div class="jz-mini-body">
+            <h4>《腊月回门》小城故事第三期</h4>
+            <small>作者：周见山 · 18:12</small>
+          </div>
+        </article>
+        <article class="jz-mini">
+          <div class="jz-mini-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 180'%3E%3Crect width='320' height='180' fill='%23a86b7d'/%3E%3Crect x='30' y='30' width='90' height='120' rx='8' fill='%23fff' opacity='.2'/%3E%3Ccircle cx='210' cy='90' r='46' fill='%23fff' opacity='.25'/%3E%3C/svg%3E" alt="她视角三十岁的和解封面">
+          </div>
+          <div class="jz-mini-body">
+            <h4>她视角：三十岁那年，我和妈妈和解了</h4>
+            <small>作者：苏晚 · 26:05</small>
+          </div>
+        </article>
+        <article class="jz-mini">
+          <div class="jz-mini-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 180'%3E%3Crect width='320' height='180' fill='%236b7f5e'/%3E%3Cpath d='M40 150 L140 60 L240 150Z' fill='%23fff' opacity='.18'/%3E%3Ccircle cx='90' cy='60' r='26' fill='%23e8c07a' opacity='.7'/%3E%3C/svg%3E" alt="创作幕后一个选题的诞生封面">
+          </div>
+          <div class="jz-mini-body">
+            <h4>创作幕后：一个选题从会议室到成片</h4>
+            <small>品牌编辑部 · 12:48</small>
+          </div>
+        </article>
+        <article class="jz-mini">
+          <div class="jz-mini-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 180'%3E%3Crect width='320' height='180' fill='%232d3a52'/%3E%3Ccircle cx='160' cy='90' r='54' fill='none' stroke='%23d99a4e' stroke-width='10' opacity='.8'/%3E%3C/svg%3E" alt="人物访谈心理咨询师谈边界封面">
+          </div>
+          <div class="jz-mini-body">
+            <h4>人物访谈：心理咨询师谈“亲密与边界”</h4>
+            <small>作者：顾清 · 31:20</small>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 热门视频流 -->
+<section class="jz-sec jz-stream" id="jz-stream">
+  <div class="jz-wrap">
+    <div class="jz-sec-head">
+      <span class="jz-eyebrow">TRENDING · 热门内容</span>
+      <h2>社区正在看</h2>
+      <p>来自善良的小姨子内容生态的近期热门原创作品，覆盖日常记录、深度访谈与治愈影像等方向。</p>
+    </div>
+    <div class="jz-stream-grid">
+      <article class="jz-vcard">
+        <div class="jz-vcard-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23c96a4a'/%3E%3Crect x='40' y='40' width='120' height='190' rx='8' fill='%23fff' opacity='.18'/%3E%3Cpath d='M0 220 Q120 170 240 200 T480 190 V270 H0Z' fill='%23fff' opacity='.18'/%3E%3C/svg%3E" alt="日常记录姐夫家的一顿晚饭封面">
+          <div class="jz-play"><i>▶</i></div>
+        </div>
+        <div class="jz-vcard-body">
+          <span class="jz-tag">日常记录</span>
+          <h3>姐夫家的一顿晚饭</h3>
+          <p>镜头记录一次普通的家庭聚餐，从厨房到餐桌，看见善意最日常的模样。</p>
+          <div class="jz-meta"><span>李念</span><span>·</span><span>14:22</span></div>
+          <div class="jz-actions">
+            <button class="jz-act" data-like>👍 点赞 <span>864</span></button>
+            <button class="jz-act" data-fav>♡ 收藏</button>
+            <button class="jz-act" data-share>↗ 分享</button>
+          </div>
+        </div>
+      </article>
+      <article class="jz-vcard">
+        <div class="jz-vcard-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%233f5d70'/%3E%3Ccircle cx='380' cy='70' r='70' fill='%23e8c07a' opacity='.6'/%3E%3Cpath d='M0 200 L120 110 L240 200 L360 130 L480 200 V270 H0Z' fill='%23fff' opacity='.14'/%3E%3C/svg%3E" alt="城市探索小城车站的清晨封面">
+          <div class="jz-play"><i>▶</i></div>
+        </div>
+        <div class="jz-vcard-body">
+          <span class="jz-tag">城市探索</span>
+          <h3>小城车站的清晨六点</h3>
+          <p>跟着一位返乡的年轻人，看看县城车站里关于离别与重逢的细节。</p>
+          <div class="jz-meta"><span>周见山</span><span>·</span><span>19:05</span></div>
+          <div class="jz-actions">
+            <button class="jz-act" data-like>👍 点赞 <span>712</span></button>
+            <button class="jz-act" data-fav>♡ 收藏</button>
+            <button class="jz-act" data-share>↗ 分享</button>
+          </div>
+        </div>
+      </article>
+      <article class="jz-vcard">
+        <div class="jz-vcard-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23a8556b'/%3E%3Ccircle cx='140' cy='110' r='60' fill='%23fff' opacity='.2'/%3E%3Crect x='260' y='70' width='150' height='140' rx='12' fill='%23fff' opacity='.16'/%3E%3C/svg%3E" alt="情感故事姐姐的旧相册封面">
+          <div class="jz-play"><i>▶</i></div>
+        </div>
+        <div class="jz-vcard-body">
+          <span class="jz-tag">情感故事</span>
+          <h3>姐姐的旧相册</h3>
+          <p>一次搬家翻出的老照片，牵出一段跨越二十年的家庭记忆。</p>
+          <div class="jz-meta"><span>苏晚</span><span>·</span><span>21:36</span></div>
+          <div class="jz-actions">
+            <button class="jz-act" data-like>👍 点赞 <span>1035</span></button>
+            <button class="jz-act" data-fav>♡ 收藏</button>
+            <button class="jz-act" data-share>↗ 分享</button>
+          </div>
+        </div>
+      </article>
+      <article class="jz-vcard">
+        <div class="jz-vcard-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%235a7d63'/%3E%3Cpath d='M60 220 Q140 90 240 160 T420 220Z' fill='%23fff' opacity='.16'/%3E%3Ccircle cx='380' cy='80' r='42' fill='%23f0dcae' opacity='.7'/%3E%3C/svg%3E" alt="治愈影像院子里的桂花树封面">
+          <div class="jz-play"><i>▶</i></div>
+        </div>
+        <div class="jz-vcard-body">
+          <span class="jz-tag">治愈影像</span>
+          <h3>院子里的桂花树</h3>
+          <p>没有旁白的十分钟，只有风声、鸟鸣与一位老人修剪枝叶的手。</p>
+          <div class="jz-meta"><span>顾清</span><span>·</span><span>10:08</span></div>
+          <div class="jz-actions">
+            <button class="jz-act" data-like>👍 点赞 <span>588</span></button>
+            <button class="jz-act" data-fav>♡ 收藏</button>
+            <button class="jz-act" data-share>↗ 分享</button>
+          </div>
+        </div>
+      </article>
+      <article class="jz-vcard">
+        <div class="jz-vcard-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%234c4a7a'/%3E%3Crect x='80' y='60' width='320' height='150' rx='10' fill='%23fff' opacity='.12'/%3E%3Ccircle cx='240' cy='135' r='40' fill='%23fff' opacity='.28'/%3E%3C/svg%3E" alt="人物访谈一位继母的自述封面">
+          <div class="jz-play"><i>▶</i></div>
+        </div>
+        <div class="jz-vcard-body">
+          <span class="jz-tag">人物访谈</span>
+          <h3>一位继母的自述</h3>
+          <p>她用九年时间学会与一个孩子相处，也学会了如何面对外界的目光。</p>
+          <div class="jz-meta"><span>林知夏</span><span>·</span><span>28:47</span></div>
+          <div class="jz-actions">
+            <button class="jz-act" data-like>👍 点赞 <span>1420</span></button>
+            <button class="jz-act" data-fav>♡ 收藏</button>
+            <button class="jz-act" data-share>↗ 分享</button>
+          </div>
+        </div>
+      </article>
+      <article class="jz-vcard">
+        <div class="jz-vcard-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23b07a43'/%3E%3Ccircle cx='120' cy='90' r='50' fill='%23fff' opacity='.22'/%3E%3Cpath d='M240 60 L340 200 H140Z' fill='%23fff' opacity='.18'/%3E%3C/svg%3E" alt="实用技巧如何拍摄一顿家常饭封面">
+          <div class="jz-play"><i>▶</i></div>
+        </div>
+        <div class="jz-vcard-body">
+          <span class="jz-tag">实用技巧</span>
+          <h3>如何拍摄一顿家常饭</h3>
+          <p>从机位选择到自然光布光，品牌摄影师分享五个可以立刻上手的方法。</p>
+          <div class="jz-meta"><span>品牌编辑部</span><span>·</span><span>16:33</span></div>
+          <div class="jz-actions">
+            <button class="jz-act" data-like>👍 点赞 <span>407</span></button>
+            <button class="jz-act" data-fav>♡ 收藏</button>
+            <button class="jz-act" data-share>↗ 分享</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 专题企划 -->
+<section class="jz-sec jz-topics" id="jz-topics">
+  <div class="jz-wrap">
+    <div class="jz-sec-head">
+      <span class="jz-eyebrow">SERIES · 专题企划</span>
+      <h2>长期主义的内容企划</h2>
+      <p>善良的小姨子品牌以季为单位推出专题，聚焦同一议题的多角度、多层次表达。</p>
+    </div>
+    <div class="jz-topic-grid">
+      <article class="jz-topic">
+        <span class="jz-topic-no">VOL.07</span>
+        <h3>善良的瞬间</h3>
+        <p>记录那些没有被拍下的善意：一次让座、一句解释、一个没有追问的眼神。征集普通人拍下的短片段。</p>
+        <span class="jz-status">征集中 · 已收 326 份</span>
+      </article>
+      <article class="jz-topic">
+        <span class="jz-topic-no">VOL.06</span>
+        <h3>家里那间空房</h3>
+        <p>以家庭空间为线索，讲述成员之间的边界、退让与重新靠近。已上线 9 集，累计播放超 480 万。</p>
+        <span class="jz-status">连载中 · 更新至第 9 集</span>
+      </article>
+      <article class="jz-topic">
+        <span class="jz-topic-no">VOL.05</span>
+        <h3>她说话的时候</h3>
+        <p>由女性创作者主导的对谈系列，讨论成长中那些难以启齿，却又特别真实的选择。</p>
+        <span class="jz-status">已完结 · 全 12 集</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 创作者矩阵 -->
+<section class="jz-sec" id="jz-creators">
+  <div class="jz-wrap">
+    <div class="jz-sec-head">
+      <span class="jz-eyebrow">CREATORS · 创作者</span>
+      <h2>与我们并肩的创作者</h2>
+      <p>他们来自不同背景，却共同相信影像可以更善良一点。品牌官网长期开放认证与投稿。</p>
+    </div>
+    <div class="jz-creators-grid">
+      <article class="jz-creator">
+        <div class="jz-creator-av" style="background:#c8443c" data-creator="林知夏">林</div>
+        <h3>林知夏</h3>
+        <div class="jz-role">家庭关系影像</div>
+        <p>前调查记者，擅长用克制的镜头语言讲述家庭内部的微妙关系。</p>
+        <div class="jz-creator-meta"><div><b>86</b>作品</div><div><b>12.3万</b>关注</div></div>
+      </article>
+      <article class="jz-creator">
+        <div class="jz-creator-av" style="background:#415c6b" data-creator="周见山">周</div>
+        <h3>周见山</h3>
+        <div class="jz-role">小城故事</div>
+        <p>常驻县城的独立导演，用镜头保存正在消失的在地文化与生活节奏。</p>
+        <div class="jz-creator-meta"><div><b>52</b>作品</div><div><b>8.7万</b>关注</div></div>
+      </article>
+      <article class="jz-creator">
+        <div class="jz-creator-av" style="background:#a8556b" data-creator="苏晚">苏</div>
+        <h3>苏晚</h3>
+        <div class="jz-role">情感故事</div>
+        <p>编剧出身的创作者，喜欢把真实访谈改写为有温度的短剧与散文影像。</p>
+        <div class="jz-creator-meta"><div><b>64</b>作品</div><div><b>9.5万</b>关注</div></div>
+      </article>
+      <article class="jz-creator">
+        <div class="jz-creator-av" style="background:#5a7d63" data-creator="顾清">顾</div>
+        <h3>顾清</h3>
+        <div class="jz-role">治愈影像</div>
+        <p>心理咨询师转型影像创作者，关注情绪、陪伴与自我和解的日常表达。</p>
+        <div class="jz-creator-meta"><div><b>38</b>作品</div><div><b>6.1万</b>关注</div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 影像墙 -->
+<section class="jz-sec" id="jz-wall" style="background:#fff;border-top:1px solid var(--jz-line)">
+  <div class="jz-wrap">
+    <div class="jz-sec-head">
+      <span class="jz-eyebrow">GALLERY · 影像墙</span>
+      <h2>被认真拍下的日常</h2>
+      <p>来自社区创作者与品牌编辑部的影像片段，尺寸不一，情感一致。</p>
+    </div>
+    <div class="jz-wall-grid">
+      <div class="jz-wall-item big">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'%3E%3Crect width='600' height='600' fill='%23c8443c'/%3E%3Ccircle cx='430' cy='170' r='150' fill='%23e8a05e' opacity='.6'/%3E%3Cpath d='M0 460 Q150 370 300 430 T600 410 V600 H0Z' fill='%23fff' opacity='.14'/%3E%3C/svg%3E" alt="影像墙作品厨房窗边的午后光">
+        <span class="jz-wall-cap">厨房窗边的午后光 · 李念</span>
+      </div>
+      <div class="jz-wall-item">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect width='300' height='300' fill='%23415c6b'/%3E%3Ccircle cx='150' cy='130' r='70' fill='%23e8c07a' opacity='.65'/%3E%3C/svg%3E" alt="影像墙作品车站长椅上的行李">
+        <span class="jz-wall-cap">车站长椅上的行李</span>
+      </div>
+      <div class="jz-wall-item">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect width='300' height='300' fill='%23a8556b'/%3E%3Crect x='60' y='70' width='180' height='160' rx='10' fill='%23fff' opacity='.2'/%3E%3C/svg%3E" alt="影像墙作品旧相册翻开的第三页">
+        <span class="jz-wall-cap">旧相册翻开的第三页</span>
+      </div>
+      <div class="jz-wall-item">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect width='300' height='300' fill='%235a7d63'/%3E%3Cpath d='M40 250 Q110 90 180 200 T260 250Z' fill='%23fff' opacity='.2'/%3E%3C/svg%3E" alt="影像墙作品院子里的桂花树影">
+        <span class="jz-wall-cap">院子里的桂花树影</span>
+      </div>
+      <div class="jz-wall-item">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect width='300' height='300' fill='%23b07a43'/%3E%3Ccircle cx='100' cy='100' r='46' fill='%23fff' opacity='.22'/%3E%3Ccircle cx='210' cy='190' r='60' fill='%23fff' opacity='.14'/%3E%3C/svg%3E" alt="影像墙作品餐桌上的一碗热汤">
+        <span class="jz-wall-cap">餐桌上的一碗热汤</span>
+      </div>
+      <div class="jz-wall-item">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect width='300' height='300' fill='%234c4a7a'/%3E%3Ccircle cx='150' cy='150' r='60' fill='none' stroke='%23fff' stroke-width='10' opacity='.3'/%3E%3C/svg%3E" alt="影像墙作品深夜的一次通话">
+        <span class="jz-wall-cap">深夜的一次通话</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 用户评价 -->
+<section class="jz-sec jz-reviews">
+  <div class="jz-wrap">
+    <div class="jz-sec-head">
+      <span class="jz-eyebrow">VOICES · 用户声音</span>
+      <h2>他们这样评价善良的小姨子</h2>
+      <p>来自社区观众、创作者与合作机构的真实反馈。</p>
+    </div>
+    <div class="jz-review-grid">
+      <article class="jz-review">
+        <p>看了《她叫我一声姐》，第一次有人把这种关系讲得这么克制又不冷漠。没有评判，只有理解。</p>
+        <div class="jz-review-who"><div class="jz-av" style="background:#c8443c">阿</div><div><b>阿晴</b><small>观众 · 关注 2 年</small></div></div>
+      </article>
+      <article class="jz-review">
+        <p>投稿流程很规范，选题会真的会回复。作为新人，我第一次感受到被认真对待。</p>
+        <div class="jz-review-who"><div class="jz-av" style="background:#415c6b">小</div><div><b>小鹿影像</b><small>认证创作者</small></div></div>
+      </article>
+      <article class="jz-review">
+        <p>作为合作方，我们很看重平台的审核标准。伦理复检这一环，在同类品牌里并不常见。</p>
+        <div class="jz-review-who"><div class="jz-av" style="background:#5a7d63">合</div><div><b>某公益机构</b><small>品牌合作方</small></div></div>
+      </article>
+      <article class="jz-review">
+        <p>画质很稳，字幕也舒服。我妈妈七十岁了，也能自己找到想看的专题。</p>
+        <div class="jz-review-who"><div class="jz-av" style="background:#a8556b">陈</div><div><b>陈先生</b><small>观众 · 关注 1 年</small></div></div>
+      </article>
+      <article class="jz-review">
+        <p>喜欢“小城故事”那种慢节奏。不是打卡式的旅行片，而是真的住在那里的人。</p>
+        <div class="jz-review-who"><div class="jz-av" style="background:#b07a43">程</div><div><b>程一</b><small>观众 · 关注 3 年</small></div></div>
+      </article>
+      <article class="jz-review">
+        <p>“善良影像基金”让我做完了处女作。剪完那一刻，我在机房哭了一会儿。</p>
+        <div class="jz-review-who"><div class="jz-av" style="background:#4c4a7a">林</div><div><b>林同学</b><small>青年创作者</small></div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 灵感 & 动态 -->
+<section class="jz-sec" id="jz-news">
+  <div class="jz-wrap">
+    <div class="jz-duo">
+      <div class="jz-idea">
+        <span class="jz-eyebrow">INSPIRATION · 创作灵感</span>
+        <h3>给正在筹备作品的你</h3>
+        <ul class="jz-idea-list">
+          <li><i>01</i><span>选题灵感：从“一次没有说出口的解释”出发，比从“一个宏大主题”出发更容易被记住。</span></li>
+          <li><i>02</i><span>脚本建议：先写下三句你绝对不想剪掉的话，再围绕它们搭建结构。</span></li>
+          <li><i>03</i><span>剪辑思路：访谈素材优先保留停顿与呼吸，沉默往往比台词更有信息量。</span></li>
+          <li><i>04</i><span>伦理提醒：涉及真实家庭时，请先取得出镜人书面同意，并保留撤回通道。</span></li>
+        </ul>
+      </div>
+      <div class="jz-news">
+        <span class="jz-eyebrow">UPDATE · 企业动态</span>
+        <h3>品牌与内容更新</h3>
+        <div class="jz-news-item">
+          <span class="jz-news-date">11-18</span>
+          <div><b>“善良的瞬间”影像征集进入终审</b><span>共收到 326 份投稿，12 个入选名额将于 12 月初公布。</span></div>
+        </div>
+        <div class="jz-news-item">
+          <span class="jz-news-date">11-12</span>
+          <div><b>善良影像基金第二期开放申请</b><span>面向 30 岁以下青年创作者，单项支持最高 3 万元。</span></div>
+        </div>
+        <div class="jz-news-item">
+          <span class="jz-news-date">11-05</span>
+          <div><b>专题《家里那间空房》更新至第 9 集</b><span>本集聚焦成年子女与父母之间的空间边界。</span></div>
+        </div>
+        <div class="jz-news-item">
+          <span class="jz-news-date">10-28</span>
+          <div><b>平台内容伦理指引 2.0 发布</b><span>新增真实家庭题材的拍摄与授权规范。</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="jz-sec jz-faq" id="jz-faq">
+  <div class="jz-wrap">
+    <div class="jz-sec-head" style="text-align:center;margin-left:auto;margin-right:auto">
+      <span class="jz-eyebrow">FAQ · 常见问题</span>
+      <h2>你可能想了解的事</h2>
+    </div>
+    <div class="jz-faq-list">
+      <details open>
+        <summary>善良的小姨子是一个什么样的品牌？</summary>
+        <p>我们是一个专注情感纪实与家庭叙事的原创影像品牌，官方网站提供精品内容展示、创作者档案、专题企划与投稿入口，已持续运营九年。</p>
+      </details>
+      <details>
+        <summary>如何向平台投稿自己的作品？</summary>
+        <p>点击页面中的“投稿入口”按钮填写作品信息，编辑会在 7 个工作日内回复。涉及真实家庭出镜的作品，需要附上出镜人授权说明。</p>
+      </details>
+      <details>
+        <summary>作品审核有哪些流程？</summary>
+        <p>分为选题会初审、内容伦理审核与后期复检三道流程，重点核查真实性与授权完整性，确保内容不猎奇、不污名、不消费他人痛苦。</p>
+      </details>
+      <details>
+        <summary>平台内容是否支持转载？</summary>
+        <p>所有内容均为原创正版，商业用途转载需取得书面授权。个人分享请保留品牌标识与原作者署名。</p>
+      </details>
+      <details>
+        <summary>“善良影像基金”如何申请？</summary>
+        <p>基金每年开放两期，面向 30 岁以下青年创作者，需提交选题阐述、拍摄计划与预算表，具体细则可在企业动态中查看。</p>
+      </details>
+      <details>
+        <summary>是否可以在线下观看专题放映？</summary>
+        <p>品牌每季度在合作城市举办小型放映与公开课，报名信息会在官方公告条与企业动态中同步发布。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- 联系 -->
+<section class="jz-sec jz-contact" id="jz-contact">
+  <div class="jz-wrap">
+    <div class="jz-contact-inner">
+      <div>
+        <h2>与善良的小姨子保持联系</h2>
+        <p>无论是合作、投稿还是反馈，我们都愿意认真读完后回复。品牌官网是唯一的官方发布渠道。</p>
+        <div class="jz-contact-info">
+          <div><i>✉</i><span>品牌合作：brand@shanliang-film.cn</span></div>
+          <div><i>✎</i><span>投稿邮箱：submit@shanliang-film.cn</span></div>
+          <div><i>☎</i><span>工作时间：周一至周五 10:00–18:00</span></div>
+        </div>
+      </div>
+      <div class="jz-contact-actions">
+        <button class="jz-btn jz-btn-solid" id="jz-submit-open2">我要投稿</button>
+        <button class="jz-btn jz-btn-ghost" data-share>分享本站</button>
+        <button class="jz-btn jz-btn-ghost" data-feedback>反馈建议</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 页脚 -->
+<footer class="jz-footer">
+  <div class="jz-wrap">
+    <div class="jz-footer-grid">
+      <div class="jz-footer-brand">
+        <div class="jz-logo" style="color:#f0e2d8">
+          <span class="jz-logo-mark">善</span>
+          <span>善良的小姨子<small style="color:#a99890">SHANLIANG BRAND</small></span>
+        </div>
+        <p>善良的小姨子官方网站，专注情感纪实与家庭叙事的原创影像品牌。以专业、正版、高清的内容标准，持续运营值得信赖的社区与内容生态。</p>
+      </div>
+      <div>
+        <h4>快速导航</h4>
+        <ul>
+          <li><a href="#jz-home">首页</a></li>
+          <li><a href="#jz-about">品牌故事</a></li>
+          <li><a href="#jz-stream">热门内容</a></li>
+          <li><a href="#jz-topics">专题企划</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>参与共建</h4>
+        <ul>
+          <li><a href="#jz-creators">创作者认证</a></li>
+          <li><a href="#jz-news">善良影像基金</a></li>
+          <li><a href="#jz-faq">常见问题</a></li>
+          <li><a href="#jz-contact">投稿与反馈</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于品牌</h4>
+        <ul>
+          <li><a href="#jz-news">企业动态</a></li>
+          <li><a href="#jz-faq">内容伦理指引</a></li>
+          <li><a href="#jz-wall">影像墙</a></li>
+          <li><a href="#jz-contact">联系我们</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="jz-footer-bottom">
+      <span>© 2017–2026 善良的小姨子品牌 官方网站 · 版权所有 · 持续运营中</span>
+      <span>原创内容 · 正版授权 · 内容伦理审核 · 浙ICP备2026000000号</span>
+    </div>
+  </div>
+</footer>
+
+<button class="jz-top" id="jz-top" aria-label="回到顶部">↑</button>
+<div class="jz-toast" id="jz-toast"></div>
+
+<!-- 分享 / 投稿 / 反馈 弹窗 -->
+<div class="jz-modal" id="jz-modal">
+  <div class="jz-modal-box">
+    <button class="jz-modal-close" id="jz-modal-close" aria-label="关闭">×</button>
+    <div id="jz-modal-content"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var prefix = 'jz-';
+
+  /* 移动端导航 */
+  var burger = document.getElementById('jz-burger');
+  var menu = document.getElementById('jz-menu');
+  if(burger && menu){
+    burger.addEventListener('click', function(){
+      menu.classList.toggle('open');
+    });
+    menu.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){ menu.classList.remove('open'); });
+    });
+  }
+
+  /* Toast */
+  var toastEl = document.getElementById('jz-toast');
+  var toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('show'); }, 2200);
+  }
+
+  /* 搜索 */
+  var searchInput = document.getElementById('jz-search-input');
+  var searchBtn = document.getElementById('jz-search-btn');
+  var searchTip = document.getElementById('jz-search-tip');
+  var searchPool = ['善良的瞬间','她叫我一声姐','小城故事','情绪边界','家庭关系档案','林知夏','周见山','善良影像基金'];
+  function doSearch(){
+    var kw = (searchInput.value || '').trim();
+    if(!kw){
+      searchTip.textContent = '试试搜索：善良的瞬间 / 家庭关系档案 / 创作者';
+      searchTip.classList.add('show');
+      return;
+    }
+    var hits = searchPool.filter(function(s){ return s.indexOf(kw) > -1; });
+    if(hits.length){
+      searchTip.innerHTML = '找到 ' + hits.length + ' 条相关结果：' + hits.join('、');
+    }else{
+      searchTip.innerHTML = '暂无完全匹配的内容，已为你推荐：<b style="color:#c8443c">善良的瞬间</b>、<b style="color:#c8443c">小城故事</b>';
+    }
+    searchTip.classList.add('show');
+  }
+  if(searchBtn){ searchBtn.addEventListener('click', doSearch); }
+  if(searchInput){
+    searchInput.addEventListener('keydown', function(e){
+      if(e.key === 'Enter'){ doSearch(); }
+    });
+    searchInput.addEventListener('input', function(){
+      if(!searchInput.value){ searchTip.classList.remove('show'); }
+    });
+  }
+  document.addEventListener('click', function(e){
+    if(searchTip && !e.target.closest('.jz-search')){ searchTip.classList.remove('show'); }
+  });
+
+  /* 点赞 / 收藏 */
+  document.addEventListener('click', function(e){
+    var likeBtn = e.target.closest('[data-like]');
+    if(likeBtn){
+      var numEl = likeBtn.querySelector('span');
+      var n = parseInt(numEl.textContent, 10);
+      if(likeBtn.classList.contains('on')){
+        likeBtn.classList.remove('on');
+        numEl.textContent = n - 1;
+        toast('已取消点赞');
+      }else{
+        likeBtn.classList.add('on');
+        numEl.textContent = n + 1;
+        toast('感谢你的支持，+1');
+      }
+      return;
+    }
+    var favBtn = e.target.closest('[data-fav]');
+    if(favBtn){
+      if(favBtn.classList.contains('on')){
+        favBtn.classList.remove('on');
+        favBtn.textContent = '♡ 收藏';
+        toast('已取消收藏');
+      }else{
+        favBtn.classList.add('on');
+        favBtn.textContent = '♥ 已收藏';
+        toast('已加入收藏夹');
+      }
+    }
+  });
+
+  /* 弹窗 */
+  var modal = document.getElementById('jz-modal');
+  var modalContent = document.getElementById('jz-modal-content');
+  var modalClose = document.getElementById('jz-modal-close');
+  function openModal(html){
+    modalContent.innerHTML = html;
+    modal.classList.add('show');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal(){
+    modal.classList.remove('show');
+    document.body.style.overflow = '';
+  }
+  if(modalClose){ modalClose.addEventListener('click', closeModal); }
+  if(modal){
+    modal.addEventListener('click', function(e){
+      if(e.target === modal){ closeModal(); }
+    });
+  }
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){ closeModal(); }
+  });
+
+  /* 分享 */
+  function shareHTML(){
+    return '<h3>分享善良的小姨子</h3>' +
+      '<p>把这份关于善良与理解的内容，分享给你想起的人。</p>' +
+      '<div class="jz-share-row">' +
+      '<button data-copy>复制页面链接</button>' +
+      '<button data-tip="已生成微信分享卡片（示意）">微信</button>' +
+      '<button data-tip="已生成微博分享文案（示意）">微博</button>' +
+      '<button data-tip="已生成 QQ 分享链接（示意）">QQ</button>' +
+      '</div>';
+  }
+
+  /* 投稿 */
+  function submitHTML(){
+    return '<h3>投稿入口</h3>' +
+      '<p>请简要填写你的作品信息，编辑会在 7 个工作日内回复。</p>' +
+      '<input type="text" placeholder="作品标题" aria-label="作品标题">' +
+      '<input type="text" placeholder="创作者昵称 / 联系方式" aria-label="联系方式">' +
+      '<textarea rows="4" placeholder="一句话说明你的选题与拍摄计划" aria-label="选题说明"></textarea>' +
+      '<button class="jz-btn jz-btn-solid" data-tip="投稿信息已记录（演示环境）" style="width:100%;justify-content:center">提交投稿</button>';
+  }
+
+  /* 反馈 */
+  function feedbackHTML(){
+    return '<h3>反馈建议</h3>' +
+      '<p>你的意见会进入品牌编辑部的月度复盘清单。</p>' +
+      '<textarea rows="4" placeholder="请描述你遇到的问题或建议" aria-label="反馈内容"></textarea>' +
+      '<button class="jz-btn jz-btn-solid" data-tip="反馈已提交，感谢你的认真" style="width:100%;justify-content:center">提交反馈</button>';
+  }
+
+  document.addEventListener('click', function(e){
+    if(e.target.closest('[data-share]')){
+      openModal(shareHTML());
+      return;
+    }
+    if(e.target.closest('#jz-submit-open') || e.target.closest('#jz-submit-open2')){
+      openModal(submitHTML());
+      return;
+    }
+    if(e.target.closest('[data-feedback]')){
+      openModal(feedbackHTML());
+      return;
+    }
+    if(e.target.closest('[data-copy]')){
+      var link = window.location.href;
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(link).then(function(){ toast('链接已复制'); }, function(){ toast('复制失败，请手动复制'); });
+      }else{
+        toast('当前环境不支持自动复制');
+      }
+      return;
+    }
+    var tipBtn = e.target.closest('[data-tip]');
+    if(tipBtn){
+      toast(tipBtn.getAttribute('data-tip'));
+      return;
+    }
+  });
+
+  /* 创作者弹窗 */
+  var creatorData = {
+    '林知夏': {role:'家庭关系影像', works:'86', fans:'12.3万', bio:'前调查记者，擅长用克制的镜头语言讲述家庭内部的微妙关系。代表作品《她叫我一声姐》《一位继母的自述》。'},
+    '周见山': {role:'小城故事', works:'52', fans:'8.7万', bio:'常驻县城的独立导演，用镜头保存正在消失的在地文化与生活节奏。代表作品《腊月回门》《小城车站的清晨六点》。'},
+    '苏晚': {role:'情感故事', works:'64', fans:'9.5万', bio:'编剧出身的创作者，喜欢把真实访谈改写为有温度的短剧与散文影像。代表作品《姐姐的旧相册》。'},
+    '顾清': {role:'治愈影像', works:'38', fans:'6.1万', bio:'心理咨询师转型影像创作者，关注情绪、陪伴与自我和解的日常表达。代表作品《院子里的桂花树》。'}
+  };
+  document.querySelectorAll('[data-creator]').forEach(function(av){
+    av.style.cursor = 'pointer';
+    av.addEventListener('click', function(){
+      var name = av.getAttribute('data-creator');
+      var d = creatorData[name];
+      if(!d){ return; }
+      openModal('<h3>' + name + '</h3>' +
+        '<p><b style="color:#c8443c">' + d.role + '</b> · 作品 ' + d.works + ' · 关注 ' + d.fans + '</p>' +
+        '<p>' + d.bio + '</p>' +
+        '<button class="jz-btn jz-btn-solid" data-tip="已关注 ' + name + '" style="width:100%;justify-content:center;margin-top:8px">关注创作者</button>');
+    });
+  });
+
+  /* 回到顶部 */
+  var topBtn = document.getElementById('jz-top');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 500){ topBtn.classList.add('show'); }
+    else{ topBtn.classList.remove('show'); }
+  });
+  topBtn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+})();
+</script>
+</body>
+  </html>
